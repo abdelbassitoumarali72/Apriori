@@ -68,7 +68,7 @@ if data is not None:
     
     elif data_type== "excel" and extension in ["xls", "xlsx"]:
         
-        dataset = pd.read_excel(fichier, header=None)
+        dataset = pd.read_excel(data, header=None)
 
         dataset = (
         dataset
